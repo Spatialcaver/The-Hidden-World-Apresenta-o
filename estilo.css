@@ -1,0 +1,139 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+header {
+  padding: 60px;
+  text-align: center;
+  background: #000000;
+  color: rgb(245, 245, 245);
+  margin:0px;
+  background-image: url("https://a-static.mlcdn.com.br/800x560/toalha-para-altar-e-taro-pentagrama-70x70cm-relaxar-e-meditar/relaxaremeditar/33877809-6545/0f047b10c084cc4474c9f5c2bfa4bdfc.jpeg ") ;
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: contain;
+  border-top-style:outset;
+  border-left-style:outset ;
+  border-color: rgba(240, 236, 9, 0.651);
+ 
+}
+#TITLE{
+  text-align: left;
+  padding-left: 24%;
+}
+
+#TITLE2{
+  text-align: right;
+  padding-right: 31%;
+}
+
+nav {
+  display: flex;
+  background-color: #333;
+  justify-content: end;
+  border-top-style:outset;
+  border-left-style:outset ;
+  border-color: rgba(240, 236, 9, 0.651);
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  
+  }
+
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+  border-color: rgba(240, 236, 9, 0.651);
+  border-style:outset;
+  transition-duration: 1s;
+}
+
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+    flex: 25%;
+    color: beige;
+    background-color: #050505;
+    border-color: rgba(240, 236, 9, 0.651);
+    border-style:outset;
+    padding: 10px;
+  }
+.side-right {
+  flex: 25%;
+  color: beige;
+    background-color: #050505;
+    border-color: rgba(240, 236, 9, 0.651);
+    border-top-style:outset;
+    border-left-style:outset ;
+    border-left: none;
+    border-right:none ;
+  padding: 10px;
+}
+
+main {
+  flex: 50%;
+  background-color: rgba(238, 234, 31, 0.651);
+  padding: 20px;
+text-align: center;
+border-color: rgba(240, 236, 9, 0.651);
+border-style:outset;
+}
+#generos{
+  text-align: left;
+}
+.logos{
+  width: 100%;
+display: inline;
+}
+
+.imglogo{
+  width: 20%;
+  
+}
+
+.Elementos{
+  width: 80%;
+  margin: 0%;
+image-orientation: unset;
+padding-top: 0%;
+padding-left: 5%;
+}
+
+
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #050505;;
+  color: rgb(175, 179, 184);
+}
+
+  footer h2{
+  display:flex;
+  margin: 1%;
+}
+
+@media (max-width: 700px) {
+  .row, nav {   
+    flex-direction: column;
+  }
+}
+
+
